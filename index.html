@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Horizon Global Trade – Best prices & top quality beverage distribution across Europe and Asia.">
+  <meta name="keywords" content="Horizon Global Trade, beverage distribution, alcohol wholesale, soft drinks B2B, wine supply Europe, spirits logistics, Asia trade">
+  <meta name="author" content="Horizon Global Trade">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://horizonglobaltrade.com/"> <!-- Replace with real domain -->
+  <meta property="og:title" content="Horizon Global Trade">
+  <meta property="og:description" content="B2B beverage logistics and supply chain expertise. Top quality and competitive pricing.">
+  <meta property="og:image" content="https://horizonglobaltrade.com/assets/preview.jpg"> <!-- Replace with your image -->
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://horizonglobaltrade.com/"> <!-- Replace -->
+  <meta name="twitter:title" content="Horizon Global Trade">
+  <meta name="twitter:description" content="Best prices & top quality beverage distribution across Europe and Asia.">
+  <meta name="twitter:image" content="https://horizonglobaltrade.com/assets/preview.jpg"> <!-- Replace -->
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  
+  <title>Horizon Global Trade</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Droid+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="floating-panel" id="sideButtons">
+    <img src="assets/24h.png" alt="24h Human Response" class="badge-img" />
+  
+    <img src="assets/aboutus.png" alt="About Us Button" id="aboutBtn" />
+    <img src="assets/contact.png" alt="Contact Button" id="contactBtn" />
+  </div>  
+  <div id="backToTop" class="back-to-top">
+    ↑
+  </div>  
+  <!-- Slide 1: Quality Highlight -->
+  <section class="slide-quality">
+    <div class="hero-top">
+      <img src="assets/logohorizon.png" alt="Logo" class="hero-logo" />
+      <div class="hero-text">
+        <h1 class="main-heading">Best Prices,<br><span>TOP QUALITY.</span></h1>
+      </div>
+    </div>
+    <!-- modelContainer -->
+    <div class="bottle-row">
+      <model-viewer src="assets/models/corona.glb" alt="Corona Bottle" auto-rotate 
+      camera-controls disable-zoom="false"  shadow-intensity="1" 
+      shadow-softness="0.9"></model-viewer>
+      <model-viewer src="assets/models/cocacola.glb" alt="cocacola Bottle" auto-rotate 
+      camera-controls 
+      disable-zoom="false" shadow-intensity="1" 
+      shadow-softness="0.9"></model-viewer>
+      <model-viewer src="assets/models/jager.glb" alt="Jäger Bottle" 
+      auto-rotate 
+      camera-controls 
+      disable-zoom="false" shadow-intensity="1" 
+      shadow-softness="0.9"></model-viewer>
+      <model-viewer src="assets/models/baylis.glb" alt="Baylis Bottle" auto-rotate 
+      camera-controls 
+      disable-zoom="false" shadow-intensity="1" 
+      shadow-softness="0.9"></model-viewer>
+      <model-viewer src="assets/models/heiniken.glb" alt="Heiniken Bottle" auto-rotate camera-controls disable-zoom="false" shadow-intensity="1" 
+      shadow-softness="0.9"></model-viewer>
+    </div>    
+    <div class="search-container">
+      <input id="productSearch" type="text" placeholder="Write any drink, brand, or spirit you need — we deliver.">
+      <button id="searchButton" type="button">Contact us!</button>
+    </div>    
+</section>
+  <!-- Slide 2: About Section -->
+  <section class="slide-about" id="about">
+    <h1>About <span class="highlight-yellow">Horizon</span></h1>
+    <div class="about-tagline"><p></p>
+      <h2 class="left-highlight"><span class="highlight-yellow">Global</span> connections.</h2>
+      <h2 class="right-highlight"><span class="highlight-yellow">Premium</span> distribution.</h2>
+    </div>
+    <p class="about-description">
+      We specialize in <span class="highlight-yellow">distributing alcoholic beverages, wines, soft drinks</span>, and <span class="highlight-yellow">confectionery</span><br>
+      across <span class="highlight-yellow">Europe</span> and <span class="highlight-yellow">Asia</span>.<br>
+      Fully digital, we adapt to your needs with <span class="highlight-yellow">reliability</span>, <span class="highlight-yellow">flexibility</span>, and <span class="highlight-yellow">competitive pricing</span>.
+    </p>
+  </section>
+
+  <!-- Slide 3: Contact Form -->
+  <section class="contact-section" id="contact">
+    <div class="midleft">
+      <!-- Logo -->
+      <img src="assets/logohorizon.png" alt="Horizon Logo" class="logo-big" />
+      <!-- Contact Info, centered under logo -->
+      <div class="contact-info">
+        <p>+972 50-917-0996</p>
+        <p>
+          <a href="mailto:Sales@horizonglobaltrade.com?subject=Inquiry from Website&body=Hi Horizon Team,%0D%0A%0D%0AI would like to get more information about your products and services." target="_blank">
+            ✉️ Sales@horizonglobaltrade.com
+          </a>
+        </p>
+        <p>
+          Horizon Global Trade Co.<br>
+          Stefan Verkovich 10,<br>
+          Plovdiv, 4000<br>
+          Bulgaria
+        </p>
+      </div>
+    </div>
+    <!-- Contact Form -->
+    <form class="right" id="leadForm">
+      <h2>Leave details and one of our agents will return to you within 24 hours!</h2>
+    
+      <input type="text" name="company" placeholder="Company Name" required />
+    
+      <input type="email" name="email" placeholder="E-mail" required />
+    
+      <input type="text" name="phone" placeholder="Phone Number" required />
+    
+      <textarea name="order" rows="4" placeholder="Order details:" required></textarea>
+      <!-- recaptcha -->
+      <div class="g-recaptcha" data-sitekey="6LcmpRkrAAAAAFHBS04JR1nryrJfsN8HOkWZJPiY"></div>
+    
+      <button type="submit">Send</button>
+    </form>    
+  </section> 
+  <!-- whatsapp -->
+  <script type="module" src="main.js"></script>
+  <a href="https://wa.me/+972509170996" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+    <img src="assets/whatsapp.png" alt="WhatsApp" />
+  </a>  
+  <!-- Load model-viewer library -->
+   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+   <!--recapcha-->
+   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+   <div id="cookie-banner" class="cookie-banner">
+    <p>We use cookies to improve your experience. By using our site, you accept our <a href="privacy.html" target="_blank">Privacy Policy</a>.</p>
+    <button id="acceptCookies">Accept 🍪</button>
+  </div>
+  <footer class="main-footer">
+    <p>© 2025 Horizon Global Trade | <a href="privacy.html" target="_blank">Privacy Policy</a></p>
+  </footer>  
+</body>
+</html>
